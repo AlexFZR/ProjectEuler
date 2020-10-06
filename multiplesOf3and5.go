@@ -10,7 +10,7 @@ func main() {
 		sum15 int
 	)
 
-	for i := 0; i <= 1000; i++ {
+	for i := 0; i < 1000; i++ {
 		if i%3 == 0 && i%5 == 0 {
 			sum15 += i
 
